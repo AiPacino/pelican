@@ -4,7 +4,7 @@ Pelican |release|
 
 .. ifconfig:: release.endswith('.dev')
 
-    .. warning::
+    .. 警告::
 
         This documentation is for the version of Pelican currently under development.
         Were you looking for version |last_stable| documentation?
@@ -18,7 +18,7 @@ Pelican is a static site generator, written in Python_. Highlights include:
 * Easy to interface with distributed version control systems and web hooks
 * Completely static output is easy to host anywhere
 
-Ready to get started? Check out the :doc:`Quickstart<quickstart>` guide.
+迫不及待想要开始使用了吗? Check out the :doc:`Quickstart<quickstart>` guide.
 
 Features
 --------
@@ -37,22 +37,22 @@ Pelican |version| currently supports:
 * Integration with external tools: Twitter, Google Analytics, etc. (optional)
 * Fast rebuild times thanks to content caching and selective output writing
 
-Why the name "Pelican"?
+为什么命名为 "Pelican"?
 -----------------------
 
 "Pelican" is an anagram for *calepin*, which means "notebook" in French. ;)
 
-Source code
+源代码
 -----------
 
-You can access the source code at: https://github.com/getpelican/pelican
+你可以获得源文件从这个网址: https://github.com/getpelican/pelican
 
-How to get help, contribute, or provide feedback
+如何获取帮助, contribute, or provide feedback
 ------------------------------------------------
 
 See our :doc:`feedback and contribution submission guidelines <contribute>`.
 
-Documentation
+文档
 -------------
 
 .. toctree::
@@ -74,12 +74,12 @@ Documentation
    report
    changelog
 
-.. Links
+.. 连接
 
 .. _Python: http://www.python.org/
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _Markdown: http://daringfireball.net/projects/markdown/
 .. _Jinja2: http://jinja.pocoo.org/
-.. _`Pelican documentation`: http://docs.getpelican.com/latest/
+.. _`Pelican 文档`: http://docs.getpelican.com/latest/
 .. _`Pelican's internals`: http://docs.getpelican.com/en/latest/internals.html
-.. _`Pelican plugins`: https://github.com/getpelican/pelican-plugins
+.. _`Pelican 插件`: https://github.com/getpelican/pelican-plugins
